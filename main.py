@@ -9,7 +9,9 @@ import asyncio
 
 nest_asyncio.apply()
 
-TOKEN = "7820159756:AAHrWURDd6ZFj9CuvNEdsmHvwTzvTveKQhQ"
+import os
+
+TOKEN = os.getenv("TOKEN")
 ADMIN_IDS = [373588422, 113250960]  # لیست ادمین‌ها
 
 SITE_URL = "https://mvmchery.com/"  # آدرس سایت رسمی
